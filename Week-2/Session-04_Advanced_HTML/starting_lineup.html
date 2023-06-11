@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Lineup Form</title>
+</head>
+<body>
+  <h1>Team Lineup Form</h1>
+  <form id="teamForm">
+    <p>
+      <fieldset>
+        <legend>Status</legend>
+        <label for="draft">
+          <input type="radio" id="draft" name="status" value="Draft"> Draft
+        </label>
+        <label for="final">
+          <input type="radio" id="final" name="status" value="Final" checked> Final
+        </label>
+      </fieldset>
+    </p>
+    <p>
+      <label for="gameDate">Game Date:</label>
+      <select id="gameDate" name="gameDate">
+        <option value="2023-03-20">March 20</option>
+        <option value="2023-03-24">March 24</option>
+        <option value="2023-04-02">April 2</option>
+        <option value="2023-04-06">April 6</option>
+        <option value="2023-04-13">April 13</option>
+      </select>
+    </p>
+    <p>
+        <fieldset>
+          <legend>Players</legend>
+          <label for="aarav">
+            <input type="checkbox" id="aarav" name="player" value="Aarav Agarwal"> Aarav Agarwal
+          </label>
+        </p>
+        <p>
+          <label for="ava">
+            <input type="checkbox" id="ava" name="player" value="Ava Johnson"> Ava Johnson
+          </label>
+        </p>
+        <p>
+          <label for="julio">
+            <input type="checkbox" id="julio" name="player" value="Julio Ortiz"> Julio Ortiz
+          </label>
+        </p>
+        <p>
+          <label for="liam">
+            <input type="checkbox" id="liam" name="player" value="Liam Rubio"> Liam Rubio
+          </label>
+        </p>
+        <p>
+          <label for="emma">
+            <input type="checkbox" id="emma" name="player" value="Emma Witherspoon"> Emma Witherspoon
+          </label>
+        </p>
+      </fieldset>
+
+    <p>
+      <input type="submit" value="Submit">
+    </p>
+  </form>
+</body>
+</html>
