@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-group{
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .form-group label{
+            min-width: 130px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Join a social network</h1>
+    <form action="" enctype="multipart/form-data" method="post">
+        <div class="form-group">
+            <label for="">Full Name: <sup>*</sup></label>
+            <input required name="fullName" id="fullName" type="text" />
+        </div>
+        <div class="form-group">
+            <label for="">Email address: <sup>*</sup></label>
+            <input required name="email" id="email"  type="text" />
+        </div>
+        <div class="form-group">
+            <label for="">About vou:</label>
+            <textarea name="about" id="about"  type="text" rows="3" cols="50" ></textarea>
+        </div>
+        <div class="form-group">
+            <label for="">Photo:</label>
+            <input name="picture" id="picture" type="file" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
